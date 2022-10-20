@@ -53,7 +53,7 @@ PtrToEmployee searchEmployeeByPhoneNumber(PtrToConstEmployee ptr, int tableSize,
 
 
 //search by salary
-PtrToEmployee searchEmployeeBySalary(PtrToConstEmployee ptr, int tableSize, long targetSalary)
+PtrToEmployee searchEmployeeBySalary(PtrToConstEmployee ptr, int tableSize, double targetSalary)
 {
     const PtrToConstEmployee endPtr = ptr + tableSize; // set the end point for loop
 
