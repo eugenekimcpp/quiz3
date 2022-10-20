@@ -41,7 +41,7 @@ PtrToEmployee searchEmployeeByPhoneNumber(PtrToConstEmployee ptr, int tableSize,
 
     for(; ptr < endPtr; ptr++)
     {
-        if(strcmp(ptr->phone == targetPhone) == 0) // phone number is string here
+        if(strcmp(ptr->phone,targetPhone) == 0) // phone number is string here
         {
             // NOTE PtrToEmployee is already a pointer
             return (PtrToEmployee) ptr; // return location of the number of callee
