@@ -35,6 +35,16 @@ int main(void){
         printf("Employee Tony Bobcat is NOT found in the record\n");
     }
 
+    matchPtr = searchEmployeeByPhoneNumber(EmployeeTable, EmployeeTableEntries, "909-555-1235");
+    if(matchPtr != NULL)
+    {
+        printf("Employee phone number with 909-555-1235 is in the record\n");
+    }
+    else
+    {
+        printf("Employee phone number with 909-555-1235 is not in the record\n");
+    }
+
     return 0;
 
 }
